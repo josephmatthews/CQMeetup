@@ -173,6 +173,11 @@ li {
 	transition:         0.5s;
 }
 
+#questionIcon h2 {
+	margin-top: 115px;
+	margin-left: 245px;
+}
+
 [class^="icon-"], [class*=" icon-"] {
 	display: inline-block;
 	width: 14px;
@@ -187,6 +192,7 @@ li {
 
 .icon-plus-sign          { background-position: 0      -96px; }
 .icon-plus               { background-position: -408px -96px; }
+.icon-question-sign      { background-position: -96px  -96px; }
 
 </style>
 </head>
@@ -300,9 +306,9 @@ li {
 			</ul>
 		</div>
 		<div id="" class="step slide" data-x="1000" data-y="1200" data-rotate="-90" data-scale="0.5">
-			<p>
+			<h2>
 				How We Use Bootstrap
-			</p>
+			</h2>
 			<ul>
 				<li>
 					Incorporate typography and grid system.
@@ -316,9 +322,9 @@ li {
 			</ul>
 		</div>
 		<div id="" class="step slide" data-x="1400" data-y="1200" data-rotate="90" data-scale="0.5">
-			<p>
+			<h2>
 				How We Use Bootstrap
-			</p>
+			</h2>
 			<ul>
 				<li>
 					The base UI elements in Twitter Bootstrap provide coverage for a number of CQ's out-of-the-box components&#8212; Grid, Column Control, Navigation, BreadCrumb, Modal
@@ -356,10 +362,10 @@ li {
 			</h2>
 			<ul>
 				<li>
-					"Update-proofing" our implementation&#8212; We don't make changes to Bootstrap's core files.  It's integrated as a git submodule to preserve update options.
+					CQ counterpart components are lacking&#8212; the 'Carousel' and 'Slideshow' Components
 				</li>
 				<li>
-					Mobile optimization at the compnent level
+					Bootstrap provides an attractive and feature-rich carousel&#8212; for featuring images and content
 				</li>
 			</ul>
 		</div>
@@ -372,13 +378,16 @@ li {
 					"Update-proofing" our implementation&#8212; We don't make changes to Bootstrap's core files.  It's integrated as a git submodule to preserve update options.
 				</li>
 				<li>
-					Mobile optimization at the compnent level
+					Additional Bootstrap components&#8212; Navigation, Navigation Bars, Dropdowns, Tabs, etc.
+				</li>
+				<li>
+					Responsive design
 				</li>
 			</ul>
 		</div>
 		<div id="" class="step slide" data-x="1200" data-y="2400">
 			<h2>
-				Questions
+				Questions<i class="icon-question-sign" style="margin-top: 40px;"></i>
 			</h2>
 		</div>
 	</div>
