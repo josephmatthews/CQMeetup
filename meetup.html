@@ -7,7 +7,7 @@
 </title>
 	
 <!--link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" /-->
-	
+<link rel="stylesheet" type="text/css" href="libs/prism/prism.css">	
 <style type="text/css">
 body{
 	width:1024px;
@@ -38,6 +38,9 @@ a:hover, a:focus {
 	text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
+pre {
+	font-size: 60%;
+}
 .step {
 	text-align:center;
 	width:1024px;
@@ -369,6 +372,47 @@ li {
 				</li>
 			</ul>
 		</div>
+		<div id="" class="step slide" data-x="4600" data-y="1200">
+			<h2>Customizable and Pretty</h2>
+			<img src="images/carousel_dialog.png">
+		</div>			
+		<div id="" class="step slide" data-x="4600" data-y="2200">
+			<h2>Support for WCAG 2.0 AA</h2>
+			<img src="images/carousel_wcag.png">
+		</div>	
+		<div id="" class="step slide" data-x="4600" data-y="3200">
+			<h2 style="font-size:260%">Responsive</h2>
+			<h2 style="font-size:130%">Responsive</h2>
+			<h2 style="font-size:100%">Responsive</h2>
+			<h2 style="font-size:60%">Responsive</h2>
+		</div>
+		<div id="" class="step slide" data-x="4600" data-y="4200">
+			<h2>SEO Friendly</h2>
+			<pre>
+<code class="language-markup">
+	&lt;!--Slide #1 --&gt;
+&lt;div id=&quot;acscarousel_slide_1&quot; class=&quot;item&quot; style=&quot;background-color: #D44F2C&quot;
+  aria-hidden=&quot;false&quot;&gt;
+  &lt;img src=&quot;/content/dam/geometrixx-outdoors/banners/adventure.jpg&quot; alt=&quot;Slide 1&quot;
+    aria-describedby=&quot;acscarousel_slide_caption_1&quot; /&gt;
+    &lt;div id=&quot;acscarousel_slide_caption_1&quot; class=&quot;carousel-caption&quot; style=
+    &quot;background-color: #262626;opacity:0.85;&quot;&gt;
+      &lt;h4 tabindex=&quot;-1&quot; style=&quot;color: #FFFFFF&quot;&gt;Adventure&lt;/h4&gt;
+      &lt;p&gt;Quis tempor fugiat vinyl sed. Quis qui pork belly, 
+      chillwave brooklyn single-origin coffee incididunt post-ironic 
+      cardigan fugiat vice ennui eu ethical mustache. Ethical organic 
+      adipisicing semiotics put a bird on it, squid mcsweeney's placeat 
+      gentrify swag direct trade esse.&amp;nbsp;&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code>
+			</pre>
+		</div>	
+		<div id="" class="step slide" data-x="4600" data-y="5200">
+			<h2>Upgradeable</h2>
+		</div>
+		<div id="" class="step slide" data-z="-2000" data-x="7600" data-y="5200">
+			<img src="images/upgrade-submodule.png" width="100%">
+		</div>					
 		<div id="" class="step slide" data-x="0" data-y="2400">
 			<h2>
 				Where We Go from Here
@@ -378,10 +422,7 @@ li {
 					"Update-proofing" our implementation&#8212; We don't make changes to Bootstrap's core files.  It's integrated as a git submodule to preserve update options.
 				</li>
 				<li>
-					Additional Bootstrap components&#8212; Navigation, Navigation Bars, Dropdowns, Tabs, etc.
-				</li>
-				<li>
-					Responsive design
+					Mobile optimization at the compnent level
 				</li>
 			</ul>
 		</div>
@@ -402,6 +443,7 @@ li {
 
 <script type="text/javascript" src="js/impress.js">
 </script>
+<script type="text/javascript" src="libs/prism/prism.js"></script>
 <script type="text/javascript">
 	impress().init();
 </script>
